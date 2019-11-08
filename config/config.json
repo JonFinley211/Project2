@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "Jon",
+    "password": "12345",
+    "database": "exampledb",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "Jon",
+    "password": "12345",
+    "database": "testdb",
+    "host": "localhost",
+    "dialect": "127.0.0.1",
+    "logging": false
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}
