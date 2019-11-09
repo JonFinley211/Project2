@@ -1,17 +1,17 @@
 {
   "development": {
-    "username": "Jon",
-    "password": "12345",
-    "database": "exampledb",
+    "username": "TeamUser",
+    "password": "Password123",
+    "database": "DnDB",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "Jon",
-    "password": "12345",
-    "database": "testdb",
-    "host": "localhost",
-    "dialect": "127.0.0.1",
+    "username": "TeamUser",
+    "password": "Password123",
+    "database": "DnDB",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
     "logging": false
   },
   "production": {
