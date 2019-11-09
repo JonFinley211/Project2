@@ -7,3 +7,20 @@ body {
   .navbar-nav a {
     font-family: "Modesto", 'Poster';
   }
+
+  .jumbotron {  
+    text-align: center;
+    margin-top: 30px;
+    width: 60%;
+    float: left 
+
+  }
+
+  .card{
+    text-align: center; 
+    /* width: 5%; */
+    margin-top: 30px;
+    margin-right: 70px;
+    /* padding-left: 50%; */
+    float: left
+  }
