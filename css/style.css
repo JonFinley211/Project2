@@ -1,3 +1,9 @@
 body {
     background-image: url("/Users/healthit/Project2/images/images.jpeg");
   }
+
+
+  /* .navbar-brand, */
+  .navbar-nav a {
+    font-family: "Modesto", 'Poster';
+  }
