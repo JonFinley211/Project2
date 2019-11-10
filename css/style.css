@@ -1,19 +1,16 @@
-body {
+body{
     background-image: url("/Users/healthit/Project2/images/images.jpeg");
   }
 
-
-  /* .navbar-brand, */
-  .navbar-nav a {
+  .navbar-nav a{
     font-family: "Modesto", 'Poster';
   }
 
-  .jumbotron {  
+  .jumbotron{  
     text-align: center;
     margin-top: 30px;
     width: 60%;
     float: left 
-
   }
 
   .card{
@@ -23,4 +20,13 @@ body {
     margin-right: 70px;
     /* padding-left: 50%; */
     float: left
+  }
+
+  .navbar-brand{
+    margin-left: 11%
+  }
+
+  #border{
+    border-style: solid;
+    margin-bottom: 30px
   }
