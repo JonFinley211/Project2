@@ -1,14 +1,14 @@
 {
   "development": {
-    "username": "TeamUser",
-    "password": "Password123",
+    "username": "Jon",
+    "password": "12345",
     "database": "DnDB",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "TeamUser",
-    "password": "Password123",
+    "username": "Jon",
+    "password": "12345",
     "database": "DnDB",
     "host": "127.0.0.1",
     "dialect": "mysql",
