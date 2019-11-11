@@ -11,6 +11,7 @@ body {
   .navbar-nav a {
     background-image: url("../images/images.jpeg");
     font-family: "Modesto", 'Poster';
+
     font-family: 'Marcellus', serif;
     opacity: 1;
   }
@@ -23,5 +24,24 @@ body {
   h1{
        font-family: 'Marcellus', serif;
 
+
+
+  }
+
+  .jumbotron {  
+    text-align: center;
+    margin-top: 30px;
+    width: 60%;
+    float: left 
+
+  }
+
+  .card{
+    text-align: center; 
+    /* width: 5%; */
+    margin-top: 30px;
+    margin-right: 70px;
+    /* padding-left: 50%; */
+    float: left
 
   }

@@ -1,12 +1,11 @@
-
 DROP DATABASE IF EXISTS DnDB;
 CREATE DATABASE DnDB;
 USE DnDB;
 CREATE TABLE Characters(
-    id int NOT NULL AUTO_INCREMENT,
-    CharacterName varchar(30)
-    CharacterClass varchar(30)
-    CharacterRace varchar(30)    
+    id int NOT NULL AUTO_INCREMENT KEY,
+    CharacterName varchar(30),
+    CharacterClass varchar(30),
+    CharacterRace varchar(30),  
     HitPoints int,
     ArmorClass int NOT NULL,
     ToHitBonus int NOT NULL,
@@ -17,17 +16,18 @@ CREATE TABLE Characters(
     FailedDeathSaves int,
     PassedDeathSaves int,
     CampaignName varchar (40),
-    DMid varchar(10),
+    DMid varchar(10)
 );
 CREATE TABLE Logins
-(  id int NOT NULL AUTO_INCREMENT,
+(  id int NOT NULL AUTO_INCREMENT KEY,
   UN varchar(20) NOT NULL,
   PW varchar(20) NOT NULL,
-  DMid varchar (10),
-  PRIMARY KEY (id));
+  DMid varchar (10)
+  );
 CREATE TABLE Campaigns
 (
-    CampaignID int NOT NULL AUTO_INCREMENT,
+    CampaignID int NOT NULL AUTO_INCREMENT KEY,
     DMid varchar(10),
-    CampaignName varchar 40,
+    CampaignName varchar (40)
+);
 );
