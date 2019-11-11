@@ -1,9 +1,27 @@
 body {
-    background-image: url("/Users/healthit/Project2/images/images.jpeg");
+    background-image: url("/images/images.jpeg");
+    font-family: 'Marcellus', serif;
+    background: grey;
+    
+
   }
 
 
   /* .navbar-brand, */
   .navbar-nav a {
+    background-image: url("../images/images.jpeg");
     font-family: "Modesto", 'Poster';
+    font-family: 'Marcellus', serif;
+    opacity: 1;
+  }
+
+  a{
+
+    font-family: 'Marcellus', serif;
+  }
+
+  h1{
+       font-family: 'Marcellus', serif;
+
+
   }

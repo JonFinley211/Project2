@@ -1,8 +1,12 @@
+
 DROP DATABASE IF EXISTS DnDB;
 CREATE DATABASE DnDB;
 USE DnDB;
 CREATE TABLE Characters(
     id int NOT NULL AUTO_INCREMENT,
+    CharacterName varchar(30)
+    CharacterClass varchar(30)
+    CharacterRace varchar(30)    
     HitPoints int,
     ArmorClass int NOT NULL,
     ToHitBonus int NOT NULL,
@@ -12,7 +16,7 @@ CREATE TABLE Characters(
     PerceptionSkill int,
     FailedDeathSaves int,
     PassedDeathSaves int,
-    CampaignName varchar 40,
+    CampaignName varchar (40),
     DMid varchar(10),
 );
 CREATE TABLE Logins
