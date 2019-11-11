@@ -30,3 +30,4 @@ CREATE TABLE Campaigns
     DMid varchar(10),
     CampaignName varchar (40)
 );
+);
