@@ -12,13 +12,13 @@ module.exports = function(app) {
     });
   });
 
-  // Load example page and pass in an example by id
+  /* Load example page and pass in an example by id
   app.get("/example/:id", function (req, res) {
     db.Example.findOne({ where: { id: req.params.id } }).then(function (dbExample) {
 
   app.get("/", function(req, res) {
       res.render("index");
-  });
+  });*/
 
   /* Load example page and pass in an example by id
   app.get("/example/:id", function(req, res) {
