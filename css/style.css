@@ -10,7 +10,12 @@ body{
     text-align: center;
     margin-top: 30px;
     width: 60%;
-    float: left 
+    float: left;
+    background-image: url("/Users/healthit/Project2/images/background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: scroll;
+
   }
 
   .card{
@@ -28,5 +33,13 @@ body{
 
   #border{
     border-style: solid;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    background-image: url("/Users/healthit/Project2/images/background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
+
+  #borderCard{
+    border-bottom: solid
+  }
+
