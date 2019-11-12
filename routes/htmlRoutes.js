@@ -1,15 +1,12 @@
 var db = require("../models");
 
-module.exports = function (app) {
+module.exports = function(app) {
   // Load index page
-
-
-  app.get("/", function (req, res) {
-    db.Logins.findAll({}).then(function(dbLogins) {
+app.get("/", function(req, res) {
+    db.Logins.findAll({}).then(function(dbLogins){
       res.render("index");
-
     });
-  }); */
+  });
 
 
   /* Load example page and pass in an example by id
@@ -47,16 +44,16 @@ module.exports = function (app) {
   // });
 
 
-  app.get("/createuser", function (req, res) {
+app.get("/createuser",function (req, res){
     res.render("password");
   });
-  app.get("/signin", function (req, res) {
+app.get("/signin", function(req, res){
     res.render("passwordvarification");
   });
 
   // Render 404 page for any unmatched routes
-  app.get("*", function (req, res) {
+  app.get("*", function(req, res) {
     res.render("404");
   });
-}
+};
 
