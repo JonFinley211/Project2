@@ -1,0 +1,25 @@
+.list-group-item {
+  line-height: 2.5;
+}
+body {
+  background-image: url("/images/images.jpeg");
+  font-family: 'Marcellus', serif;
+}
+
+
+/* .navbar-brand, */
+.navbar-nav a {
+  font-family: "Modesto", 'Poster';
+  font-family: 'Marcellus', serif;
+}
+
+a{
+
+  font-family: 'Marcellus', serif;
+}
+
+h1{
+     font-family: 'Marcellus', serif;
+
+
+}
