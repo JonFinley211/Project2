@@ -1,4 +1,131 @@
+body{
+  background-image: url("/img/images.jpeg");
+}
 
+
+
+body {
+  background-image: url("/img/images.jpeg");
+  font-family: 'Marcellus', serif;
+  background: grey;
+  
+
+}
+
+
+/* .navbar-brand, */
+.navbar-nav a {
+  background-image: url("../img/images.jpeg");
+
+  font-family: "Modesto", 'Poster';
+
+  font-family: 'Marcellus', serif;
+  opacity: 1;
+}
+
+a{
+
+  font-family: 'Marcellus', serif;
+}
+
+h1{
+     font-family: 'Marcellus', serif;
+
+
+
+}
+
+.jumbotron{  
+  text-align: center;
+  margin-top: 30px;
+  width: 80%;
+  float: left;
+  background-image: url("/img/piratemap_02.png");
+
+  /* background-image: url("/Users/healthit/Project2/images/background2.jpeg"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+
+}
+
+.card{
+  text-align: center; 
+  /* width: 5%; */
+  width: 40%;
+  margin-top: 30px;
+  margin-right: 20px;
+  /* padding-left: 50%; */
+  float: left;
+
+}
+
+.navbar-brand{
+  margin-left: 11%
+}
+
+#border{
+  border-style: solid;
+  margin-bottom: 30px;
+  background-image: url("img/background2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#borderCard{
+  border-bottom: solid
+}
+
+
+#health{
+  float:right ; 
+  clear: both;
+  position:relative;
+  height:600px;
+  overflow:scroll;
+  /* width: -100px */
+  /* position: relative;
+  box-align:center */
+}
+.bg{
+width: 100%;
+height: 100%;
+position: absolute;
+}
+
+.topMap {
+width: 100%;
+height:200px;
+background-image: url("img/piratemap_01.png");
+position:relative;
+top:0px;
+}
+
+.middleMap{
+width:100%;
+height: 100%;
+position: relative;
+}
+
+.bottomMap{
+
+width: 100%;
+height:200px;
+position:relative;
+bottom:0px;
+}
+
+/* 
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
 body{
   background-image: url("img/images.jpeg");
 }
