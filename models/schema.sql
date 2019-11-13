@@ -3,9 +3,9 @@ CREATE DATABASE DnDB;
 USE DnDB;
 CREATE TABLE Characters(
     id int NOT NULL AUTO_INCREMENT KEY,
-    CharacterName varchar(30),
-    CharacterClass varchar(30),
-    CharacterRace varchar(30),  
+    CharacterName varchar (30) NOT NULL,
+    CharacterClass varchar (30),
+    CharacterRace varchar (30) NOT NULL,  
     HitPoints int,
     ArmorClass int NOT NULL,
     ToHitBonus int NOT NULL,
@@ -29,5 +29,4 @@ CREATE TABLE Campaigns
     CampaignID int NOT NULL AUTO_INCREMENT KEY,
     DMid varchar(10),
     CampaignName varchar (40)
-);
 );
