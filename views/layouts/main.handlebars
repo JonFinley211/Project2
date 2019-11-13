@@ -8,14 +8,21 @@
     <title>Dungeons & Dragons</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Marcellus&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/styles.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
   <title>Home Page</title>
 </head>
 <!DOCTYPE html>
 <html lang="en">
-
+    <title></title>
+    {{#each css}}
+        <link rel="stylesheet" href="/css/{{this}}">
+    {{/each}}
+</head>
 <body>
-  {{{body}}}
+    {{{body}}}
+    {{#each js}}
+        <script src="/js/{{this}}"></script>
+    {{/each}}
 </body>
-
 </html>
+
