@@ -54,12 +54,8 @@ body {
     margin-top: 30px;
     margin-right: 70px;
     /* padding-left: 50%; */
-<<<<<<< HEAD
-    float: left 
-=======
     float: left
 
->>>>>>> 3ab22a8a7646f4d6af63407eaec740dd9a1a9b33
   }
 
   .navbar-brand{
@@ -79,7 +75,6 @@ body {
   }
 
 
-<<<<<<< HEAD
   #health{
     float:right ; 
     clear: both
@@ -87,5 +82,3 @@ body {
     /* position: relative;
     box-align:center */
   }
-=======
->>>>>>> 3ab22a8a7646f4d6af63407eaec740dd9a1a9b33
