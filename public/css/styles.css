@@ -1,6 +1,6 @@
 
 body{
-  background-image: url("/img/images.jpeg");
+  background-image: url("img/images.jpeg");
 }
 
 
@@ -16,7 +16,7 @@ body {
 
 /* .navbar-brand, */
 .navbar-nav a {
-  background-image: url("../img/images.jpeg");
+  background-image: url("img/images.jpeg");
 
   font-family: "Modesto", 'Poster';
 
@@ -41,10 +41,10 @@ h1{
   margin-top: 30px;
   width: 60%;
   float: left;
-  background-image: url("/Users/healthit/Project2/images/background2.jpeg");
+  background-image: url("img/background2.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
-  overflow: scroll;
+  /* overflow: scroll; */
 
 }
 
@@ -65,11 +65,20 @@ h1{
 #border{
   border-style: solid;
   margin-bottom: 30px;
-  background-image: url("/Users/healthit/Project2/images/background2.jpeg");
+  background-image: url("img/background2.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 #borderCard{
   border-bottom: solid
+}
+
+
+#health{
+  float:right ; 
+  clear: both
+  /* width: -100px */
+  /* position: relative;
+  box-align:center */
 }
