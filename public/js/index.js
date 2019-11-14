@@ -109,3 +109,7 @@ function redirect() {
 function guestredirect() {
   location.href = "../loggedIn";
 }
+// eslint-disable-next-line no-unused-vars
+function camp(){
+  location.href = "/campaign";
+}
