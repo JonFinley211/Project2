@@ -1,0 +1,223 @@
+body{
+  background-image: url("../images/images.jpeg");
+}
+
+
+
+body {
+  background-image: url("/images/images.jpeg");
+  font-family: 'Marcellus', serif;
+  
+  
+
+}
+
+
+/* .navbar-brand, */
+.navbar-nav a {
+  background-image: url("../images/images.jpeg");
+
+  font-family: "Modesto", 'Poster';
+
+  font-family: 'Marcellus', serif;
+  opacity: 1;
+}
+
+a{
+
+  font-family: 'Marcellus', serif;
+}
+
+h1{
+     font-family: 'Marcellus', serif;
+
+
+
+}
+
+.jumbotron{  
+  text-align: center;
+  margin-top: 30px;
+  width: 80%;
+  float: left;
+  background-image: url("../images/piratemap_02.png");
+
+  /* background-image: url("/Users/healthit/Project2/images/background2.jpeg"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+
+}
+
+.card{
+  text-align: center; 
+  /* width: 5%; */
+  width: 40%;
+  margin-top: 30px;
+  margin-right: 20px;
+  /* padding-left: 50%; */
+  float: left;
+
+}
+
+.navbar-brand{
+  margin-left: 11%
+}
+
+#border{
+  border-style: solid;
+  margin-bottom: 30px;
+  background-image: url("../images/background2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#borderCard{
+  border-bottom: solid
+}
+
+
+#health{
+  float:right ; 
+  clear: both;
+  position:relative;
+  height:600px;
+  overflow:scroll;
+  /* width: -100px */
+  /* position: relative;
+  box-align:center */
+}
+.bg{
+width: 100%;
+height: 100%;
+position: absolute;
+}
+
+.topMap {
+width: 100%;
+height:200px;
+background-image: url("../images/piratemap_01.png");
+position:relative;
+top:0px;
+}
+
+.middleMap{
+width:100%;
+height: 100%;
+position: relative;
+}
+
+.bottomMap{
+
+width: 100%;
+height:200px;
+position:relative;
+bottom:0px;
+}
+#display {
+  font-family: monospace;
+  font-size: 120px;
+  color: rgb(236, 197, 160);
+  border: 10px solid clear;
+
+  /* Typography */
+  text-align: center;
+
+  /* Visual */
+  background: clear;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+#main-container {
+  padding-bottom: 5px;
+padding-top: 5px;
+min-height: calc(100vh - 70px);
+}
+
+.main-section {
+/* float: left; */
+width: 100%;
+max-width: 960px;
+padding-left: 20px;
+margin: 0 0 0px;
+background: #ffffff;
+/* background: radial-gradient( rgb(189, 93, 38),rgb(70, 18, 2)); */
+border: 1px solid #dddddd;
+}
+
+/* this is for input fields for password */
+input {
+  width: 100%
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Style the container for inputs */
+/* .container {
+  background-color: #f1f1f1;
+  padding: 20px;
+} */
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+
+/* 
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
