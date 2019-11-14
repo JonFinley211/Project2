@@ -7,13 +7,13 @@
     <title>D&D | Dungeons & Dragons</title>
     <link rel="shortcut icon" href="/Users/healthit/Project2/images/dungeons-dragons-logo.jpg" type="image/icon"/>
     <!-- CSS -->
-    <link rel="stylesheet" href="/Users/healthit/Project2/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">DRAGON KEEPER</a>
+    <a class="navbar-brand" href="../home">DRAGON KEEPER</a>
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@
           </div>
           <br>
           <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="#" class="card-link">Health</a></li>
+                <li class="list-group-item"><a href="/health" class="card-link">Health</a></li>
                 <li class="list-group-item"><a href="#" class="card-link">Characters</a></li>
                 <li class="list-group-item"><a href="#" class="card-link">Dice</a></li>
                 <li class="list-group-item"><a href="#" class="card-link">Item Info</a></li>
@@ -59,10 +59,13 @@
         <div class="container">
           <h1 class="display-4">Campaigns</h1>
           <div class="card-body" id="border">
-                <button type="button" class="btn btn-primary">Go to Campaign</button>
+       
+                <button type="button" name="camp" onClick="camp()" class="btn btn-primary">Go to Campaign</button>
 
         </div>
       </div>
 </div>
 </body>
 </html>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
